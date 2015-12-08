@@ -2,7 +2,7 @@
 
 == Schedule
 
-This workshop will provide developers and operators an in-depth overview of Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands-on labs;
+This workshop will provide developers and operators an in-depth overview of Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building predominantly .NET applications. The session includes presentations, demos and hands-on labs;
 
 8:00 AM -   9:00 AM::   Registration & Breakfast
 9:00 AM -  10:00 AM::   Cloud Native for Enterprise | Rapidly Delivering Continuous Value for the Business
