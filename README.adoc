@@ -1,41 +1,40 @@
-= Pivotal Cloud Foundry Workshop @ Humana
+= Pivotal Cloud Foundry Workshop @ T
 
 == Schedule
 
-This workshop will provide developers and operators an indepth overview of Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs
+This workshop will provide developers and operators an in-depth overview of Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands-on labs;
 
-8:00 AM - 9:00 AM::   Registration & Breakfast
-9:00 AM - 10:00 AM::  Keynote: Cloud Native for Enterprise | Rapidly deliver continuous value to Humana's consumers
-10:00 AM - 11:00 AM:: Cloud Native Defined (Mark Ruesink, Pivotal CTO)
-11:00 AM - 11:15 AM:: Break
-11:15 AM - 12:15 PM:: Pushing Code with Pivotal Cloud Foundry
+8:00 AM -   9:00 AM::   Registration & Breakfast
+9:00 AM -  10:00 AM::   Cloud Native for Enterprise | Rapidly Delivering Continuous Value for the Business
+10:00 AM - 10:30 AM::   Platform as a Service Defined 
+10:30 AM - 11:00 AM::   Cloud Foundry Overview
+11:00 AM - 11:15 AM::   Break
+11:15 AM - 12:15 PM:: .NET Developer Focused Cloud Foundry Workshop
 
-12:15 PM - 12:45 PM:: Lunch Break and Split into Separate Tracks (Developer & Operator)
+12:15 PM - 12:45 PM:: Lunch Break
 
-== Track 1:  Developer: Pivotal Cloud Foundry Workshop:
+12:45 PM - 4:30 PM::   .NET Developer Focused Cloud Foundry Workshop
+  * From Zero to Pushing your first .NET Applications to Pivotal Cloud Foundry
 
-12:45 PM - 4:30 PM::   Developer Focused Workshop Labs:
-  * Bring your own app and push to Cloud Foundry
+  * Scaling Applications
 
-  * Q&A and Next Steps (4:30 PM - 5:00 PM)
+  * Monitoring Applications
 
-== Track 2:  Operators: Pivotal Cloud Foundry Workshop
+  * Updating Applications (blue-green updates)
 
-12:45 PM - 3:30 PM::  Operator Focused Workshop
-  
-  * Transforming to Cloud Native: Why?, What?, How?
-  * Pivotal Cloud Foundry Overview
-  * Operations Key Role with Pivotal Cloud Foundry
+  * Binding Applications to Dependencies
+
+  * Cloud Foundry Roles / Responsibilities (App Developer, App Operator, Platform Developer, Platform Operator)
+ 
+  * Q&A
+
   * Pivotal Cloud Foundry for Operators Demonstration: (Ops Manager/Apps Manager)
 
   * Q&A and Next Steps (3:30 PM - 4:00 PM)  
 
+
 == Workshop Material
 ** Lab 1 - From Zero to Pushing Your First Application
-*** link:labs/lab5/lab.adoc[**.NET** Application]
-*** link:labs/lab1/lab.adoc[**Java** Application]
-*** link:labs/lab1/lab-ruby.adoc[**Ruby** Application]
-*** link:labs/lab1/lab-node.adoc[**NodeJS** Application]
 
 
 == Additional Developer Track Course Materials
@@ -47,5 +46,4 @@ This workshop will provide developers and operators an indepth overview of Pivot
 ** link:labs/lab3/lab.adoc[Lab 3 - Operating Your Application]
 ** link:labs/lab4/lab.adoc[Lab 4 - Monitoring Your Application]
 
-==  Additional Operator Track Course Materials
-* Session Presentation: link:presentations/PCF_Overview_and_Ops_Workshop_Humana110415.pptx[Pivotal Cloud Foundry Operator Focused Session/Presentation]
+* Session Presentation: link:presentations/PCF_Overview_and_Ops_Workshop.pptx[Pivotal Cloud Foundry Operator Focused Session/Presentation]
