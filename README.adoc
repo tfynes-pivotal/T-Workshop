@@ -4,20 +4,21 @@
 
 This workshop will provide developers and operators an in-depth overview of Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building predominantly .NET applications. The session includes presentations, demos and hands-on labs;
 
-8:00 AM -   9:00 AM::   Registration & Breakfast
-9:00 AM -  10:00 AM::   Cloud Native for Enterprise | Rapidly Delivering Continuous Value for the Business
-10:00 AM - 10:30 AM::   Platform as a Service Defined 
-10:30 AM - 11:00 AM::   Cloud Foundry Overview
-11:00 AM - 11:15 AM::   Break
-11:15 AM - 12:15 PM:: .NET Developer Focused Cloud Foundry Workshop
+8:00 AM -  9:00 AM::   Registration & Breakfast
+9:00 AM -  9:15 AM::   Pivotal Intro and Cloud Native for Enterprise 
+9:15 AM - 10:00 AM::   Platform as a Service Defined | Cloud Foundry Overview
+10:00 AM - 10:15 AM::   Break
+10:15 AM - 12:15 PM:: .NET Developer Focused Cloud Foundry Workshop
 
-12:15 PM - 12:45 PM:: Lunch Break
-
-12:45 PM - 4:30 PM::   .NET Developer Focused Cloud Foundry Workshop
-  * From Zero to Pushing your first .NET Applications to Pivotal Cloud Foundry
+ * From Zero to Pushing your first .NET Applications to Pivotal Cloud Foundry
 
   * Scaling Applications
 
+
+12:15 PM - 12:45 PM:: Lunch Break
+
+12:45-3:30  Workshop Continued
+ 
   * Monitoring Applications
 
   * Updating Applications (blue-green updates)
