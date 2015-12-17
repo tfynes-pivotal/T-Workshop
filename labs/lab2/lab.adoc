@@ -3,7 +3,7 @@
 [abstract]
 --
 The _Workshop_ application was designed to illustrate the ease with which data services can be bound to and utilized by applications running on Cloud Foundry.
-In this lab, we'll be binding the application to a SQL Server database.
+In this lab, we'll be binding the application to a MySQLr database.
 
 Cloud Foundry services are managed through two primary types of operations:
 
@@ -36,7 +36,7 @@ $ cf marketplace
 and you'll get a list of services, their available plans, and descriptions. On Pivotal Cloudfoundry, the ``free'' tier of plans is normally the first one listed.
 
 The second way is specific to Pivotal Cloudfoundry's Apps Manager UI.
-If you haven't already, login to it by visiting http://apps.run.poc-cf.loutms.tree
+If you haven't already, login to it by visiting https://apps.cfeas.travp.net
 
 Click on the ''Marketplace'' link:
 
@@ -48,9 +48,9 @@ image::lab2.png[]
 
 == Creating and Binding to a Service Instance
 
-. Let's begin by creating a SQL Server service instance.
-From the Apps Manager UI service marketplace, select _SQL Server_, select the free plan, and provide an instance name.
-In the drop-down list next to _Bind to App_ select your workshop application.
+. Let's begin by creating a MySQL service instance.
+From the Apps Manager UI service marketplace, select _MySQL_, select the free plan, and provide an instance name.
+In the drop-down list next to _Bind to App_ select your env application.
 +
 image::lab3.png[]
 
@@ -66,32 +66,27 @@ $ cf restage env
 ----
 +
 Once the application is running again, revisit or refresh the browser tab where you have the _Wokshop_ application loaded.  You'll notice now we have information that could be used to connect to a DB.
-In fact, our data is now being retrieved from that SQL Server database!
+In fact, our data is now being retrieved from that MySQL database!
 +
 ----
 Bound Services:
- {
-      "mssql-dev": [
-        {
-          "name": "sqlserver",
-          "label": "mssql-dev",
-          "tags": [
-            "mssql",
-            "relational"
-          ],
-          "plan": "default",
-          "credentials": {
-            "hostname": "192.168.109.205",
-            "host": "192.168.109.205",
-            "port": 1433,
-            "name": "cf-28e0d150-3fc4-47b5-9779-ebbc49651183",
-            "username": "cf-28e0d150-3fc4-47b5-9779-ebbc49651183-8faf100f-1c0f-4ecb-8789-da060ac2bbb0",
-            "password": "tlOL8YM0BhL2tRJ54BdbtwN0U_SBDtpNC7JRjKq82_M=Aa_0",
-            "connectionString": "Address=192.168.109.205,1433;Database=cf-28e0d150-3fc4-47b5-9779-ebbc49651183;UID=cf-28e0d150-3fc4-47b5-9779-ebbc49651183-8faf100f-1c0f-4ecb-8789-da060ac2bbb0;PWD=tlOL8YM0BhL2tRJ54BdbtwN0U_SBDtpNC7JRjKq82_M=Aa_0;"
-          }
-        }
-      ]
-    }
+ { 
+  "p-mysql": [ 
+    { 
+      "name": "mysql", 
+      "label": "p-mysql", 
+      "tags": ["mysql",  "relational" ], 
+      "plan": "100mb-dev", 
+      "credentials": {
+        "hostname": "192.168.3.73", 
+        "port": 3306, 
+        "name": "cf_d100cbcc_21e4_481c_b2b2_65c5589af217", "username": "Sfohh0Un4quCZnxx",
+        "password": "yFuqWfvo3dZJ0Gky", 
+        "uri": "mysql://Sfohh0Un4quCZnxx:yFuqWfvo3dZJ0Gky@192.168.3.73:3306/cf_d100cbcc_21e4_481c_b2b2_65c5589af217?reconnect=true",
+        "jdbcUrl": "jdbc:mysql://192.168.3.73:3306/cf_d100cbcc_21e4_481c_b2b2_65c5589af217?user=Sfohh0Un4quCZnxx&password=yFuqWfvo3dZJ0Gky" } 
+        } 
+        ]
+}
 ----
 
 . You may also verify your service was provisioned in the Apps Manager UI by clicking on your application and selecting the _Services_ tab.
