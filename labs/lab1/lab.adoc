@@ -4,10 +4,12 @@
 
 . If you haven't already, download the latest release of the Cloud Foundry CLI from https://github.com/cloudfoundry/cli/releases for your operating system and install it.
 
+. This lab will reference the $BOOTCAMP home directory, this is referring to the cf-spring-mvc-boot directory from this repo. Either download the zip for the repo, or clone it.
+
 . Set the API target for the CLI: (set appropriate end point for your environment)
 +
 ----
-$ cf api https://api.run.poc-cf.loutms.tree --skip-ssl-validation
+$ cf api api.cfeas.travp.net --skip-ssl-validation
 ----
 
 . Login to Pivotal Cloudfoundry:
